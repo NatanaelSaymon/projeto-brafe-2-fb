@@ -69,11 +69,29 @@ body{
 
 
 
+/* CONTAINER INICIO*/
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* CONTAINER FIM*/
+
+
+
 /* FILTRO INICIO */
 .filtro{
   background-color: #e7e4d8;
   border: 3px solid #d6d3c8;
   padding: 20px 0;
+}
+
+.filtro-flex{
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 0 0 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px); /*caso o flex falhe*/
 }
 
 .filtro h2{
@@ -108,9 +126,23 @@ body{
 
 
 /* SECTION PRODUTOS INICIO */
-section.produtos h1{
+.produtos h1{
   font-size: 3em;
   font-weight: normal;
+}
+
+.produtos-items{
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  flex-wrap: wrap;
+}
+
+.produto-item-li{
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px); /*caso o flex falhe*/
 }
 
 .produtos li img{
