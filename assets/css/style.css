@@ -66,3 +66,47 @@ body{
   padding-right: 0px;
 }
 /* HEADER FIM */
+
+
+
+/* FILTRO INICIO */
+.filtro{
+  background-color: #e7e4d8;
+  border: 3px solid #d6d3c8;
+  padding: 20px 0;
+}
+
+.filtro h2{
+  font-size: 1.125em;
+  padding: 10px 10px;
+}
+
+.filtro ul {
+  border-top: 3px solid #c0beb4;
+  border-bottom: 3px solid #c0beb4;
+  padding: 10px 10px;
+}
+
+.filtro li{
+  font-style: italic;
+  font-size: 1.125em;
+  line-height: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtro li::after{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #c0beb4;
+  margin-top: 5px;
+}
+
+.sabor{
+  overflow: hidden;
+}
+
+
+/* FILTRO FIM */
