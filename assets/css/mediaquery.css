@@ -25,7 +25,7 @@
   }
 
   .produtos li img {
-    border: 2px
+    border: 2px solid #ffffff;
   }
 
 }
